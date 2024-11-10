@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     font-family: canva Arial, Helvetica, sans-serif;
 }
@@ -50,3 +50,11 @@ p {
     padding-right: 50px;
     margin: 5px;
 }
+h3 {
+    background-color: aliceblue;
+    color: gray;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+

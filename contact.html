@@ -5,7 +5,13 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Thank you for CONTACTING ^-^</h1>
+    <div class="topnav">
+        <a href="index.html">Home</a>       
+        <a class="active" href="about.html">About</a>       
+        <a href="contact.html">Contact us</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+    <h1>Pls Fill The FORM ^-^</h1>
     <h2>Personal details form_</h2>
     <form>
         <fieldset>
@@ -28,6 +34,8 @@
         <input type="radio" id="gender" name="gender" value="Female">Female
         <br>
         <input type="radio" id="gender" name="gender" value="Male">Male
+        <br>
+        <input type="radio" id="gender" name="gender" value="Rather Not Say">Rather Not Say
         <br><br>
         <label>City you live in</label>
         <br>
@@ -41,9 +49,16 @@
         <br>
         <input type="date" id="birthday" name="birthday">
         <br><br><br><br>
-        <input type="submit">
+        <button onclick="submit();">
+        SUBMIT!
+        </button>
 
         </fieldset>
     </form>
+    <script>
+        function submit() {
+            alert("Thanks for Contacting!");
+        }
+    </script>
 </body>
 </html>
